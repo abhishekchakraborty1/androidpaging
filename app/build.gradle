@@ -29,8 +29,8 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", "BASE_URL", "\"https://pixabay.com/\""
-            buildConfigField "String", "PHOTOS_API_KEY", "\"31919089-ba8035435e15d8888e24422fb\""
+            buildConfigField "String", "BASE_URL", "\"https://newsdata.io/\""
+            buildConfigField "String", "NEWS_API_KEY", "\"pub_1431174f2f181216325cfb1acb9abb345ae62\""
         }
     }
 
